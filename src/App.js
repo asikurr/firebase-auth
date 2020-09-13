@@ -88,7 +88,7 @@ function App() {
 
   const handleSubmit = (e) => {
     // console.log(user.email, user.password)
-      ;
+    ;
     // console.log(user.email , user.password)
     if (isNewUser && user.email && user.password) {
       // debugger
@@ -142,9 +142,9 @@ function App() {
       displayName: name
 
     }).then(res => {
-      console.log('Updated profile successful') 
-    }).catch( error => {
-     console.log('Updated profile faild', error) 
+      console.log('Updated profile successful')
+    }).catch(error => {
+      console.log('Updated profile faild', error)
     });
   }
   return (
